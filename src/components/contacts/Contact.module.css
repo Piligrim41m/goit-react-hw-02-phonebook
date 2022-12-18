@@ -1,6 +1,12 @@
 .wrapper {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
 }
 
 .number {
@@ -39,8 +45,4 @@
 .button:hover,
 .button:focus {
   background-color: var(--accent-bg-color);
-}
-
-.dataContact {
-  min-width: 450px;
 }
